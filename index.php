@@ -10,8 +10,8 @@
   $specialNames = array();
   $n = 25;
   /* Regex to match only names in the list that contain ONLY:
-    -capital or lower case letters
-    -apostrophes */
+      -capital or lower case letters
+      -apostrophes */
   $regex = '/^([a-zA-Z\']+),\s([a-zA-Z]+)/';
 
   // ******************* Getting Info From Text File *******************
