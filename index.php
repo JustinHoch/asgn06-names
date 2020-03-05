@@ -10,10 +10,12 @@
   <body>
     <div id="main-content">
       <header>
-        <h1>Web-182 Assignment 06 Names</h1>
+        <h1>Assignment 06</h1>
       </header>
 
       <main>
+        <h2>Names</h2>
+
         <?php
 
           include_once('names-functions.php');
@@ -58,7 +60,6 @@
 
           // ************** Printing *******************
 
-          print('<h2>Names!</h2>');
           print('<p>Total number of names in the list: <strong>'. number_format($totalNameCount, 0, '.', ',') .'</strong></p>');
 
           print('<h3><u>Unique Name Count</u></h3>');
